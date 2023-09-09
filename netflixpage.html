@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix Clone</title>
+<style>
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+body{
+            background: url(https://handoff-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);  
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+.logo img {
+    max-width: 100px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-right: 20px;
+}
+
+.nav-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color:red;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+}
+
+.hero-text {
+    width: 40%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cta-button input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 70%;
+}
+
+.cta-button button {
+    background-color: #e50914;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <p>Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="cta-button">
+                    <input type="email" placeholder="Email address">
+                    <button>Get Started</button>
+            
+        </section>
+
+        <section class="featured-content">
+            <h2>Popular on Netflix</h2>
+       
+        </section>
+
+        <section class="categories">
+            <h2>Browse by Category</h2>
+          
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
